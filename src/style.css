@@ -89,4 +89,28 @@ form input {
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+    margin-bottom: 2.5rem;
+  }
 
+  .score-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .score-placeholder {
+    margin-top: 0;
+  }
+
+  .score-line {
+    min-width: 420px;
+  }
+
+  form {
+    margin: 0 0 0 2rem;
+    width: 450px;
+    order: 1;
+  }
+}
