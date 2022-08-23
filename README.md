@@ -1,4 +1,7 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # LeaderBoard
+
 This a project is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it displays and saves the scores of users on the browser.
 
 ## Built With
