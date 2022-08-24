@@ -43,4 +43,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is licensed by MIT.
+This project is licensed by [MIT](./LICENSE).
