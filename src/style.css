@@ -22,6 +22,7 @@ button {
   padding: 0.5em 1.5em;
   color: black;
   display: block;
+  cursor: pointer;
 }
 
 .flex {
@@ -89,6 +90,68 @@ form input {
   margin-bottom: 1rem;
 }
 
+form input:focus {
+  outline: none;
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(58, 47, 66, 0.11);
+  padding: 1em;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  align-items: center;
+  padding: 1em 1.2em;
+  border-radius: 8px;
+  background-color: #fff;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  position: relative;
+  transform: scale(0);
+  transition: transform 1s ease-in-out;
+}
+
+.modal-content.active {
+  transform: scale(1);
+}
+
+.modal-content p {
+  font-size: 1rem;
+}
+
+.modal-info {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.modal-img {
+  width: 320px;
+  height: 130px;
+  background: url('./asset/images.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1rem;
+}
+
+.modal-content #close {
+  margin-left: auto;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     margin-bottom: 2.5rem;
@@ -102,6 +165,10 @@ form input {
 
   .score-placeholder {
     margin-top: 0;
+  }
+
+  .score-header {
+    min-width: 350px;
   }
 
   .score-line {
