@@ -4,29 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>LeaderBoards</title>
   </head>
   <body class="flex">
     <main class="container flex">
-      <h1>LeaderBoard</h1>
+      <h1><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i> LeaderBoard</h1>
 
       <div class="score-container flex">
-        <div class="score-placeholder">
-          <div class="score-header flex">
+        <div class="score-placeholder border-radius">
+          <div class="score-header flex border-radius">
             <h2>Recent scores</h2>
             <button id="refreshBtn">Refresh</button>
           </div>
 
           <div class="score-display">
-            <!-- <div class="score-line flex">
-              <h3>Duane David</h3>
-              <span>100</span>
-            </div> -->
+            <h2 class="notif">Refresh to load data</h2>
           </div>
         </div>
 
         <form>
-          <h2>Add Your Score</h2>
+          <h2 class="score-header border-radius">Add Your Score</h2>
           <input type="text" placeholder="Your Name" id="name" />
           <input type="number" placeholder="Yor Score" id="score" />
           <button type="submit" id="submit">Submit</button>
@@ -34,10 +35,12 @@
       </div>
     </main>
     <div class="modal hidden flex">
-      <div class="modal-content flex">
+      <div class="modal-content flex border-radius">
         <div class="modal-img"></div>
         <div class="modal-info flex">
-          <p>Fields can not be left Empty. Please enter a valid name and score.</p>
+          <p>
+            Fields can not be left Empty. Please enter a valid name and score.
+          </p>
 
           <button id="close">Dismiss</button>
         </div>
