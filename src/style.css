@@ -19,7 +19,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   width: 3px;
-  background-color: rgb(100, 35, 156);
+  background-color: rgba(80, 16, 136, 0.795);
   border-radius: 30px;
 }
 
@@ -89,6 +89,7 @@ button:active {
   background-color: rgb(255, 255, 255);
   padding: 0.3em 0.2em;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.4));
+  margin-bottom: 1rem;
 }
 
 .score-header {
@@ -104,7 +105,7 @@ button:active {
   width: 100%;
   padding: 0 0.2em;
   overflow-y: auto;
-  max-height: 600px;
+  max-height: 400px;
 }
 
 .score-line {
@@ -213,7 +214,7 @@ form input:focus {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding-top: 0.5em;
   }
 
