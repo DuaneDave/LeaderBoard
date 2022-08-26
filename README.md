@@ -9,8 +9,8 @@ This a project is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it saves t
 - HTML.
 - Javascript.
 - Css.
-- Webpack
-- Webpack-dev server
+- Webpack.
+- Webpack-dev server.
 
 ## To get a local copy up and running follow these simple example steps.
 
