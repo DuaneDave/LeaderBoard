@@ -8,7 +8,7 @@ This a project is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it saves t
 
 - HTML.
 - Javascript.
-- Css
+- Css.
 - Webpack
 - Webpack-dev server
 
