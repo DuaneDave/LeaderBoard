@@ -2,7 +2,7 @@
 
 # LeaderBoard
 
-This a project is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it saves the scores of users to an external API and displays it on the browser.
+This app is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it saves the scores of users to an external API and displays it on the browser.
 
 ## Built With
 
