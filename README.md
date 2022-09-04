@@ -4,6 +4,9 @@
 
 This a project is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it displays and saves the scores of users on the browser.
 
+![screenshot](./src/asset/img1.png)
+![screenshot](./src/asset/img2.png)
+
 ## Built With
 
 - HTML
