@@ -4,6 +4,9 @@
 
 This app is built using HTML | CSS | JAVASCRIPT | WEBPACK+ API, it saves the scores of users to an external API and displays it on the browser.
 
+![screenshot](./src/asset/img1.png)
+![screenshot](./src/asset/img2.png)
+
 ## Built With
 
 - HTML.
